@@ -1,0 +1,13 @@
+interface:
+  display_name: "电气毕设 Simulink"
+  short_description: "电气工程及其自动化毕设建模、仿真与论文分析助手"
+  default_prompt: "Use $eea-simulink-design to build and validate a MATLAB/Simulink simulation for an electrical engineering graduation design."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "matlab"
+      description: "MATLAB MCP server for toolbox detection, Simulink model building, script analysis, and simulation execution."
+
+policy:
+  allow_implicit_invocation: true
